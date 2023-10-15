@@ -3,7 +3,7 @@
 #include "EnhancedInputComponent.h"
 #include "Interaction/EnemyInterface.h"
 
-AAuraPlayerController::AAuraPlayerController()
+AAuraPlayerController::AAuraPlayerController(): LastActor(nullptr), CurrentActor(nullptr)
 {
 	bReplicates = true;
 }
